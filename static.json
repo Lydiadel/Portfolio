@@ -1,0 +1,25 @@
+{
+    "root": "dist/"
+}
+
+{
+    "encoding": "US-ASCII"
+}
+
+{
+"clean_urls": true
+}
+
+{
+    "routes": {
+      "/*.html": "index.html",
+      "/route/**": "bar/baz.html"
+    }
+  }
+
+  {
+    "routes": {
+      "/assets/*": "/assets/",
+      "/**": "index.html"
+    }
+  }
