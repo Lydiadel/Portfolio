@@ -174,7 +174,7 @@ footer a {
 
 .card-title {
   margin-top: 50px;
-  color: #328eff;
+  color: #346c82;
   text-align: center;
 }
 
@@ -366,14 +366,16 @@ footer a {
 }
  #timeline .timeline-item .timeline-content h2 {
 	 padding: 15px;
-	 background: #328eff;
+   background: linear-gradient(to right, #277698, #428aaa, #5a9ebd, #71b2d0, #88c7e4, #85c4e3, #82c1e2, #7fbee1, #63a2cb, #4887b5, #2d6d9f, #0d5389);
 	 color: #fff;
-	 margin: -20px -20px 0 -20px;
+	 margin: -20px -20px 15px -20px;
 	 font-weight: 300;
 	 -webkit-border-radius: 3px 3px 0 0;
 	 -moz-border-radius: 3px 3px 0 0;
 	 -ms-border-radius: 3px 3px 0 0;
 	 border-radius: 3px 3px 0 0;
+   
+  box-shadow:0 8px 17px 2px rgba(19, 16, 16, 0.14),0 3px 14px 2px rgba(53, 45, 45, 0.12),0 5px 5px -3px rgba(152,152,152,0.2);
 }
  #timeline .timeline-item .timeline-content:before {
 	 content: '';
@@ -384,7 +386,7 @@ footer a {
 	 height: 0;
 	 border-top: 7px solid transparent;
 	 border-bottom: 7px solid transparent;
-	 border-left: 7px solid #328eff;
+	 border-left: 7px solid #13355f;
 }
  #timeline .timeline-item .timeline-content.right {
 	 float: right;
@@ -397,10 +399,10 @@ footer a {
 	 border-right: 7px solid #328eff;
 }
  .btn {
-	 background-color: #328eff;
-   border: 2px solid #328eff;
-   color: #fff;
-   border-radius: 0;
+   background: linear-gradient(to right, #d0eeff, #8fa2c6);
+   border: 2px solid #aebbe0;
+   color: rgb(255, 255, 255);
+   border-radius: 10px;
 
 }
 
@@ -497,4 +499,9 @@ footer a {
 
 .myself {
   border-radius: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
 }

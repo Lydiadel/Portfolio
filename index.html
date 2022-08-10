@@ -13,7 +13,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
@@ -42,6 +42,9 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#education">Education</a>
                     </li>
                     <li class="nav-item">
@@ -63,7 +66,7 @@
                 <h1 class="name">Lydia Delgado Uriarte</h1>
                 
             <h3 class="mb-0">
-                Web Developer - User Experience Designer - JavaScript - Software Developer
+                Web Developer - User Experience Designer - Data Analyst - Software Developer
             </h3>
                <!--<h3 class="subtitle text-center">Building beautiful applications that just work.</h3>--> 
                 <!-- <img src="assets/images/student.png" class="boy" alt="boy image" /> -->
@@ -148,7 +151,8 @@
 
                     <div class="col">
                         <div class="skill-bar-title">
-                            <img src="assets/images/portfolio/R.jpeg" width="85px" height="85px" >
+                            <img src="assets/images/portfolio/googlemapsapi.png" width="100px" height="100px" >
+                            <p>Google Maps API</p>
                         </div>
                     </div>
                     <div class="col">
@@ -184,7 +188,19 @@
                             
                         </div>
                     </div>
-
+                
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <img src="assets/images/portfolio/mongodb.png" width="60%" height="60%" >
+                            
+                        </div>
+                    </div>
+                        
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <img src="assets/images/portfolio/R.jpeg" width="85px" height="85px" >
+                        </div>
+                    </div>
                     <div class="col">
                         <div class="skill-bar-title"><br>
                             <i class="fab fa-git fa-4x"></i>
@@ -193,15 +209,8 @@
                     </div>
                     <div class="col">
                         <div class="skill-bar-title">
-                            <img src="assets/images/portfolio/googlemapsapi.png" width="100px" height="100px" >
-                            <p>Google Maps API</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <img src="assets/images/portfolio/excel.png" width="100px" height="100px" >
-                            <p>Excel</p>
-                            
+                            <br>
+                            <img src="assets/images/portfolio/Mysql.png" width="100%" height="100%" >
                         </div>
                         
                     </div>
@@ -210,10 +219,12 @@
         </div>
     </section>
 
-    <div class="wave-svg-color">
+    <div class="wave-svg-color" id="about">
         <svg xmlns="http://www.w3.org/2000/svg" fill="#0a1f3a" opacity="1" width="100%" height="80"
-            preserveAspectRatio="none" viewBox="0 0 1600 200">
+            preserveAspectRatio="none" viewBox="0 0 1600 200" >
+            
             <path d="M-8,95.3C-8,95.3,189,2,398,2s604,184.7,800,184.7s412-91.4,412-91.4V271H-8V95.3z" />
+            
             <path
                 d="M1610,95.3c0,0-216,80-412,80c-98,0-245.8-40.5-395.1-80.9c149.4,46.2,297.1,92.3,395.1,92.3C1394,186.7,1610,95.3,1610,95.3z" />
         </svg>
@@ -221,30 +232,29 @@
 
     <section class="container-color">
     </section>
-    <section class="container">
+    
+    <section class="container" >
         <div class="card custom-card">
-            <div class="card-body" id="about">
-                
+            <div class="card-body" >
                 <img src="assets/images/myself.jpg" alt="Italian Trulli" class="myself" width="300px" height="300px">
 
                 <h3 class="card-title">More about Me</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque
-                    viverra vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                    himenaeos. Vestibulum elementum fringilla lectus, ac condimentum mauris. Mauris vel tellus id tellus
-                    accumsan convallis sed sed elit.Equipped with various tech skills with
-                    a completed certificate in Data Analytics from Tecnologico de Monterrey Data Analyst Boot Camp. </p>
+                <p class="card-text"> Data Analyst with eager of experience interested to acquire knowledge through
+                    different technologies and retrieve data prominent information with recommended tools such as Python,
+                    Tableau, MySQL, Pandas, etc. Equipped with various tech skills with
+                    a completed certificate in Data Analytics and Visualizations Bootcamp from Tecnologico de Monterrey. </p>
             
+                <div class="text-center mt-4">
+                    <a class="btn btn-lg btn-outline-light" href="#">
+                        <i class="fas fa-download mr-2"></i>
+                        Resume
+                    </a>
+                </div>
             </div>
+            <div id="projects"></div>
+            
         </div>
     </section>
-
-    <div class="text-center mt-4">
-        <a class="btn btn-lg btn-outline-light" href="#">
-            <i class="fas fa-download mr-2"></i>
-            Resume
-        </a>
-    </div>
-<br><br><br>
     <!-- TIMELINE -->
     <section class="container">
         <h1 class="title">Recent Projects</h1>
@@ -260,13 +270,13 @@
 
                 </div>
                 <div class="timeline-content">
-                    <h2>Project Title 1</h2>
+                    <h2>House Pricing</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
                     </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                    <a href="https://github.com/Lydiadel/house-pricing.git" target="_blank" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://lydiadel.github.io/house-pricing/" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
                 </div>
             </div>
 
@@ -277,13 +287,14 @@
                 </div>
                 <div class="timeline-content right">
                     <h2>Mystery Island Videogame</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
+                    <p>Developed a serious game in C++, alongside a teammate.
+                            <li> Programmed the functionality of the game using pointers & polymorphism</li>
+                            <li> Applying character movement, attributes and item properties </li>
+                            <li> Game board creation</li>
+                            <li> Implementation of colors</li>
                     </p>
-                    <a href="https://github.com/occon/MysteryIslandSP" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="https://www.youtube.com/watch?v=L5Em0UNdvNo&feature=youtu.be" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                    <a href="https://github.com/occon/MysteryIslandSP" target="_blank" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://www.youtube.com/watch?v=L5Em0UNdvNo&feature=youtu.be" target="_blank" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
                 </div>
             </div>
 
@@ -310,14 +321,14 @@
 
                 </div>
                 <div class="timeline-content right">
-                    <h2>Project Title 4</h2>
+                    <h2>Bikesharing</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
                         modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
                         ipsa.
                     </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                    <a href="https://github.com/Lydiadel/Bikesharing" target="_blank" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://public.tableau.com/views/NYCstorybikesharing/NYCStory?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link" target="_blank" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
                 </div>
             </div>
 
@@ -326,27 +337,23 @@
                     <i class="fas fa-star fa-align"></i>
                 </div>
                 <div class="timeline-content">
-                    <h2>Project Title 5</h2>
+                    <h2>UFOs</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
+                        Webpage that shows UFOs findings in the US.
+                        <li> Implemented filters for date city, state, country and shape. </li> 
+                        <li> Technologies used: Javascrip, HTML, Css</li>
+                        <li>Deployed in Github Pages. </li>
                     </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                    <a href="https://github.com/Lydiadel/UFOs.git" target="_blank" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://lydiadel.github.io/UFOs/" target="_blank" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
                     
 <br><br><br>
                 </div>
             </div>
         </div>
     </div>
-        <iframe
-            src="https://www.credential.net/embed/d81e359b-5599-4803-91f4-12b5c8523c34"
-            width="800"
-            height="600"
-            frameborder="0"
-            allowfullscreen>
-        </iframe>
+
+
     <!-- EDUCATION -->
         
     <div id="education"></div>
@@ -354,23 +361,95 @@
         
         <h1 class="title">Education </h1>
         <article class="education-item">
-            <h3 class="subtitle">University Instituto Tecnologico de Estudios Superiores de Monterrey.</h3>
+            <h3 class="subtitle">Instituto Tecnologico de Estudios Superiores de Monterrey &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1LqIPOTHvaPAzXEaiFd1CcYCCcOZNvi6z/view?usp=sharing" target="_blank" >
+                <img src="assets/images/portfolio/tec_mty.jpg" height="20%" width="20%"></a></h3> 
             <span class="text-muted">B.S in Computer Science and Technology | Aug 2020 - Present </span>
         </article>
         <hr />
-
-
+        <article class="education-item">
+            <h3 class="subtitle"> Instituto Tecnologico de Estudios Superiores de Monterrey &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1vF6PZ9jwpckFZaa9s7vGvh5O8PKYAVQv/view" target="_blank" >
+                <img src="assets/images/portfolio/tec_mty.jpg" height="20%" width="20%"></a></h3> 
+            <span class="text-muted">Highschool  | Aug 2020 - Present </span>
+            <div id="certifications"></div>
+        </article>
 
     </section>
 
     <!-- CERTIFICATIONS -->
-    <section class="container-available">
-        <div class="container">
-            <h1 class="title">Certifications</h1>
-            </h1>
-            <h3 class="subtitle">Actively contributing to new projects and seeking an internship as a Data Scientist in a fast-paced,
-                agile environment. Get in touch!</h3>
-        </div>
+    <div id="certifications"></div>
+    <section class="container">
+        <h1 class="title">Certifications </h1>
+        <article class="education-item">
+            <h3 class="subtitle">Data Analytics and Visualization Bootcamp  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<a href="https://www.credential.net/d81e359b-5599-4803-91f4-12b5c8523c34#gs.7seg2z" target="_blank" >
+                <img src="assets/images/portfolio/tec_mty.jpg" height="20%" width="20%"></a></h3> 
+            <span class="text-muted">24-week Bootcamp from Tecnológico de Monterrey | Dec 2021 - Jun 2022 </span>
+        </article>
+        <hr />
+        
+        <article class="education-item">
+            <h3 class="subtitle">Data Science with Tableau&nbsp; &nbsp;<a href="https://verify.skilljar.com/c/dn8ipttubcci" target="_blank" >
+                <img src="assets/images/portfolio/tabl.png" height="20%" width="20%"></a></h3> 
+            <span class="text-muted"> Sep 2021 </span>
+        </article>
+        <hr />
+        
+        <article class="education-item">
+            <h3 class="subtitle">Build Visualizations and Dashboards&nbsp; &nbsp;<a href="https://verify.skilljar.com/c/ruoq7tbs5gej" target="_blank" >
+                <img src="assets/images/portfolio/tabl.png" height="20%" width="20%"></a></h3> 
+            <span class="text-muted"> Sep 2021 </span>
+        </article>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle">Exploring Developer Resources&nbsp; &nbsp;<a href="https://verify.skilljar.com/c/yuiigf22h4hq" target="_blank" >
+                <img src="assets/images/portfolio/tabl.png" height="20%" width="20%"></a></h3> 
+            <span class="text-muted"> Sep 2021 </span>
+        </article>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle">Tableau Prep Builder &nbsp;<a href="https://verify.skilljar.com/c/98xg7t5efshd" target="_blank" >
+                <img src="assets/images/portfolio/tabl.png" height="20%" width="20%"></a></h3> 
+            <span class="text-muted"> Sep 2021 </span>
+        </article>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle">Tableau Desktop III: Advanced Level &nbsp; &nbsp;<a href="https://verify.skilljar.com/c/j4q5bg5ab3j6" target="_blank" >
+                <img src="assets/images/portfolio/tabl.png" height="20%" width="20%"></a></h3> 
+            <span class="text-muted"> Sep 2021 </span>
+        </article>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle" >Tableau Desktop II: Intermediate Level&nbsp; &nbsp;<a href="https://verify.skilljar.com/c/fwxg5hg45phe" target="_blank" >
+                <img src="assets/images/portfolio/tabl.png" height="20%" width="20%"></a></h3> 
+            <span class="text-muted"> Sep 2021 </span>
+        </article>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle">Tableau Desktop I: Basic Aspects &nbsp; &nbsp;<a href="https://verify.skilljar.com/c/d57ndkug66u9" target="_blank" >
+                <img src="assets/images/portfolio/tabl.png" height="20%" width="20%"></a></h3> 
+            <span class="text-muted"> Aug 2021 </span>
+        </article>
+        <hr/>
+        
+        <article class="education-item">
+                <div class="row">
+                    <div class="col-5">
+                        <h3 class="subtitle">Basic Concepts of Computer Science &nbsp; &nbsp;
+                            <a href="https://drive.google.com/file/d/1n01eIxS19NOeL616vPDqZwrnP_KUUkFk/view?usp=sharing" target="_blank" ></h3> 
+                        <span class="text-muted"> Jun 2020 - Jul 2020</span> 
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            
+                        </div>
+                        <div class="row">
+                            <img src="assets/images/portfolio/code.png" height="80%" width="30%"></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                </div>
+        </article>
     </section>
 
     <!-- AVAILABLE FOR WORK -->
@@ -389,8 +468,8 @@
             <div id="connect">
             <h1>Contact Me</h1></div>
             <h3 class="intro subtitle">
-                <a href="https://www.linkedin.com/in/lydia-delgado-uriarte-7926021b8/" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/lydiadel" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lydia-delgado-uriarte-7926021b8/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/lydiadel" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
                 <a href="mailto:lydia101-lidi@hotmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
             </h3>
         </div>
