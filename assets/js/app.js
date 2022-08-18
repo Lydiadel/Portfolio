@@ -8,3 +8,9 @@ function showImgContent(e) {
 };
 
 document.addEventListener('mousemove', showImgContent);
+
+function myalert() {
+    alert("Check the certifications!\n " +
+        "Feel free to click on each certification " +
+                 "for more information");
+}
