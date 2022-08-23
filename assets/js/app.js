@@ -14,3 +14,11 @@ function myalert() {
         "Feel free to click on each certification " +
                  "for more information");
 }
+
+function education(){
+    alert("Click on Highschool to see my verified diploma :)")
+}
+
+function myvideo(){
+    alert("This is a video of me playing the piano. To listen to it, click on the button play and enjoy it!")
+}
